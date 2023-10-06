@@ -27,5 +27,8 @@ public class Main {
         for (Person person : allPersons) {
             System.out.println("ID: " + person.id() + ", Name: " + person.name() + ", Favorite Day: " + person.favoriteDay());
         }
+        //getPersonById
+        System.out.println(" | getPersonById | ");
+        System.out.println(repository.getPersonById(1));
     }
 }
