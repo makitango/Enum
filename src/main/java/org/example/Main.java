@@ -4,12 +4,6 @@ import static org.example.DaysOfWeekUtil.getDayType;
 
 public class Main {
     public static void main(String[] args) {
-        //getDayType
-        DaysOfWeek monday = DaysOfWeek.MONDAY;
-        DaysOfWeek saturday = DaysOfWeek.SATURDAY;
-        System.out.println(monday + " ist ein " + getDayType(monday));
-        System.out.println(saturday + " ist ein " + getDayType(saturday));
-
         //favouriteDay
         Person person1 = new Person(1, "Jamie Lannister", DaysOfWeek.MONDAY);
         Person person2 = new Person(2, "Arthur Dayne", DaysOfWeek.FRIDAY);
