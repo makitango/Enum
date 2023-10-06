@@ -16,4 +16,4 @@ public class DaysOfWeekUtil {
         DaysOfWeek saturday = DaysOfWeek.SATURDAY;
         System.out.println(monday + " ist ein " + getDayType(monday));
         System.out.println(saturday + " ist ein " + getDayType(saturday));
-}
+}}
