@@ -11,8 +11,8 @@ public class DaysOfWeekUtil {
                 .map(DaysOfWeek::toString)
                 .orElse(day == DaysOfWeek.SATURDAY || day == DaysOfWeek.SUNDAY ? "Wochenende" : "Ungültiger Wochentag");
     }
+    //getDayType
     public static void main(String[] args) {
-        //getDayType
         DaysOfWeek monday = DaysOfWeek.MONDAY;
         DaysOfWeek saturday = DaysOfWeek.SATURDAY;
         System.out.println(monday + " ist ein " + getDayType(monday));
